@@ -8,6 +8,7 @@
 
 A simple TUI application that aims to replicate the Gmail Web-UI in a TUI-Environment - Is this even possible? I don't know yet but let's find out! Special thanks to Rivo for their [TUI Library](https://github.com/rivo/tview/tree/master).
 
+## Future Plans
 As of now, users can only compose mails and send them to Email-IDs from their Gmail-ID using the [Go SMTP-Library](https://www.geeksforgeeks.org/sending-email-using-smtp-in-golang/). I plan on implementing the following to this TUI-Application:
 - Inbox with side panel for reading the mails
 - Drafts
