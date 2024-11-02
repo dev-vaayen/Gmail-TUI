@@ -2,7 +2,7 @@
 
 # Gmail-TUI by Dev_Vaayen
 
-![img](https://i.imgur.com/wYxrM28.gif)
+![img](https://i.imgur.com/hRZ4VRz.gif)
 
 </div>
 
