@@ -1,4 +1,8 @@
+<div align=center>
+
 # Gmail-TUI
+
+</div>
 
 ![img](https://i.imgur.com/Cm7haWl.gif)
 
