@@ -1,10 +1,10 @@
 <div align=center>
 
-# Gmail-TUI
-
-</div>
+# Gmail-TUI by Dev_Vaayen
 
 ![img](https://i.imgur.com/Cm7haWl.gif)
+
+</div>
 
 A simple TUI application that aims to replicate the Gmail Web-UI in a TUI-Environment - Is this even possible? I don't know yet but let's find out! Special thanks to Rivo for their [TUI Library](https://github.com/rivo/tview/tree/master).
 
