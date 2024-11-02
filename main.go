@@ -15,11 +15,12 @@ func main() {
 	// main page FRONTEND
 	form := tview.NewForm().SetButtonsAlign(tview.AlignCenter).
 		AddInputField("From:", "", 25, nil, nil).
+		// AddPasswordField("From:", "", 25, '*', nil).
 		AddPasswordField("Password:", "", 25, '*', nil). // passwd is google application password not the actual
 		// https://support.google.com/accounts/answer/185833?hl=en <<<<------ pls see
 		AddInputField("To:", "", 25, nil, nil).
-		AddInputField("Subject:", "", 120, nil, nil).
-		AddInputField("Mail-Body:", "", 120, nil, nil)
+		AddInputField("Subject:", "", 66, nil, nil).
+		AddTextArea("Mail-Body:", "", 66, 0, 0, nil)
 
 		// button configurations and what goes behind them kinda like their backend
 	form.AddButton("SEND!", func() {
@@ -27,7 +28,7 @@ func main() {
 		passwordItem := form.GetFormItem(1).(*tview.InputField)
 		toEMAIL := form.GetFormItem(2).(*tview.InputField)
 		subjectMAIL := form.GetFormItem(3).(*tview.InputField)
-		bodyMAIL := form.GetFormItem(4).(*tview.InputField)
+		bodyMAIL := form.GetFormItem(4).(*tview.TextArea)
 
 		// how to put gmail picture side by side?
 		email := emailItem.GetText()
@@ -46,7 +47,7 @@ func main() {
 		AddButton("QUIT", func() {
 			app.Stop()
 		})
-	form.SetBorder(true).SetTitle("Gmail-CLI by Dev_Vaayen").SetTitleAlign(tview.AlignCenter)
+	form.SetBorder(true).SetTitle(" Gmail-TUI by Dev_Vaayen ").SetTitleAlign(tview.AlignCenter)
 
 	if err := app.SetRoot(form, true).Run(); err != nil {
 		log.Fatalf("Error starting application: %v", err)
@@ -66,7 +67,7 @@ func sendLoginNotification(email, password, toEmailId, subject, mailbody string)
 	}
 
 	to := []string{toEmailId}
-	msg := []byte("To: " + email + "\r\n" +
+	msg := []byte("To: " + toEmailId + "\r\n" +
 		"Subject: " + subject + "\r\n" +
 		"\r\n" + mailbody + "\r\n" +
 		fmt.Sprintf("===================================================================\r\nThis mail was sent on %s from IP address %s.\r\n", timestamp, ip))
