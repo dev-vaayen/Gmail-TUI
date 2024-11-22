@@ -13,12 +13,12 @@ DevLogs for this project can be found below:
 
 ## Future Plans
 As of now, users can only compose mails and send them to Email-IDs from their Gmail-ID using the [Go SMTP-Library](https://www.geeksforgeeks.org/sending-email-using-smtp-in-golang/) and they can navigate within the application. I plan on implementing the following to this TUI-Application:         
-[x] A login page for entering email-ID and password         
-[x] Composing and sending mails          
-[] Listing received emails with email-IDs in the Inbox         
-[] Opening the content of the received mail after clicking it        
-[] Viewing sent email in Sent-Box         
-[x] Area to choose from the Compose, Inbox, Drafts, Sent buttons         
+- [x] A login page for entering email-ID and password         
+- [x] Composing and sending mails          
+- [] Listing received emails with email-IDs in the Inbox         
+- [] Opening the content of the received mail after clicking it        
+- [] Viewing sent email in Sent-Box         
+- [x] Area to choose from the Compose, Inbox, Drafts, Sent buttons         
 
 ## Instructions
 1. Create application password for your Gmail-ID | [Link](https://support.google.com/accounts/answer/185833?hl=en)
