@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net"
-	"net/smtp" //  https://www.geeksforgeeks.org/sending-email-using-smtp-in-golang/
+	"net/smtp" // https://www.geeksforgeeks.org/sending-email-using-smtp-in-golang/
 	"time"
 
 	"github.com/rivo/tview"
