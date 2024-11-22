@@ -25,5 +25,5 @@ As of now, users can only compose mails and send them to Email-IDs from their Gm
 1. Create application password for your Gmail-ID | [Link](https://support.google.com/accounts/answer/185833?hl=en)
 2. Clone this repository and inside it, run `./Gmail-TUI`
 3. Enter the required details in the placeholders - Please only enter the application password created in step 1
-4. Use `tab` and `shift+tab` to navigate between the buttons and hit `enter` on the **SEND!** button
+4. Use `tab` & `shift+tab` or your mouse to navigate between the buttons and hit `enter` on the **SEND!** button
 5. Check your inbox after the success dialogue box has been displayed 
