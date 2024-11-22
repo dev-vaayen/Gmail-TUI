@@ -10,6 +10,7 @@ A simple TUI application that aims to replicate the Gmail Web-UI in a TUI-Enviro
 
 DevLogs for this project can be found below:     
 - [[DevLog #01] Gmail-TUI: Replicating The Gmail-Web Experience In Terminal](https://dev.to/dev_vaayen/devlog-01-gmail-tui-replicating-the-gmail-web-experience-in-terminal-1lk1)
+- [[DevLog #02] Gmail-TUI: Replicating Gmail-Web's Navigation](https://dev.to/dev_vaayen/devlog-02-gmail-tui-replicating-gmail-webs-navigation-blb)
 
 ## Future Plans
 As of now, users can only compose mails and send them to Email-IDs from their Gmail-ID using the [Go SMTP-Library](https://www.geeksforgeeks.org/sending-email-using-smtp-in-golang/) and they can navigate within the application. I plan on implementing the following to this TUI-Application:         
