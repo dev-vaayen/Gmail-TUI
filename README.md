@@ -22,8 +22,8 @@ As of now, users can only compose mails and send them to Email-IDs from their Gm
 - [x] Area to choose from the Compose, Inbox, Drafts, Sent buttons         
 
 ## Instructions
-1. Create an application password for your Gmail account. Refer to this [Google Support link](https://support.google.com/accounts/answer/185833?hl=en) for guidance
+1. Create an application password for your Gmail account - Refer to this [Google Support link](https://support.google.com/accounts/answer/185833?hl=en) for guidance
 2. Clone this repository and run the `./Gmail-TUI` command inside the cloned directory
 3. Enter the required details in the placeholders - **Use only the application password created in Step 1.**
-4. Use `Tab` and `Shift+Tab` to navigate between buttons, and press `Enter` on the **SEND!** button. You can also use the mouse for navigation
+4. Use `Tab` and `Shift+Tab` to navigate between buttons, and press `Enter` on the **SEND!** button - Can also use the mouse for navigation
 5. After the success dialog box appears, check your inbox for confirmation
